@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gondermgt *.css
+recursive-include gondermgt *.csv
+recursive-include gondermgt *.html
+recursive-include gondermgt *.ico
+recursive-include gondermgt *.js
+recursive-include gondermgt *.json
+recursive-include gondermgt *.md
+recursive-include gondermgt *.png
+recursive-include gondermgt *.py
+recursive-include gondermgt *.svg
+recursive-include gondermgt *.txt
+recursive-exclude gondermgt *.pyc
