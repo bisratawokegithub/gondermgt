@@ -1,0 +1,314 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+ "creation": "2022-11-20 13:25:53.647066",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u12e8\u1309\u12de_\u1218\u1230\u1228\u1273\u12ca_\u1218\u1228\u1303",
+  "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+  "\u12e8\u1320\u12eb\u1242_\u1235\u121d",
+  "\u12e8\u1270\u1313\u12e5_\u1235\u121d",
+  "\u12e8\u121a\u1204\u12f1\u1260\u1275_\u1266\u1273",
+  "\u121d\u12ad\u1295\u12eb\u1275",
+  "section_break_4",
+  "heading_5",
+  "\u1208\u12a0\u1308\u120d\u130d\u120e\u1275_\u12e8\u121a\u1348\u1208\u130d\u1260\u1275_\u1230\u12d3\u1275__\u12a8\u12da\u1205_\u130a\u12dc_\u12ed\u1300\u121d\u122b\u120d",
+  "\u1208\u12a0\u1308\u120d\u130d\u120e\u1275_\u12e8\u121a\u1348\u1208\u130d\u1260\u1275_\u1230\u12d3\u1275_\u12a5\u1235\u12a8\u12da\u1205_\u130a\u12dc_\u12f5\u1228\u1235",
+  "\u12e8\u1309\u12de_\u1239\u134c\u122d_\u1218\u1228\u1303",
+  "\u12e8\u1239\u134c\u122d_\u1235\u121d",
+  "\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+  "\u12e8\u12cd\u1233\u1294_\u1230\u132d_\u1218\u1228\u1303",
+  "section_break_10",
+  "\u12a0\u133d\u12f3\u1242\u12cd_\u1235\u121d",
+  "column_break_7",
+  "\u1240\u1295",
+  "section_break_7",
+  "amended_from",
+  "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1218\u1290\u123b_\u1240\u1295__\u12e8\u1270\u1218\u1208\u1230\u1260\u1275_\u1240\u1295",
+  "section_break_22",
+  "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1218\u1290\u123b_\u1240\u1295_\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+  "column_break_24",
+  "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1218\u1290\u123b_\u1240\u1295",
+  "section_break_26",
+  "\u1270\u123d\u12a8\u122d\u12ab\u122a\u12cd_\u12e8\u1270\u1218\u1208\u1230\u1260\u1275_\u1240\u1295_\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+  "column_break_28",
+  "\u1270\u123d\u12a8\u122d\u12ab\u122a\u12cd_\u12e8\u1270\u1218\u1208\u1230\u1260\u1275_\u1240\u1295",
+  "section_break_30",
+  "\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+  "has_been_saved",
+  "cover",
+  "section_break_34",
+  "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+  "column_break_36",
+  "\u12cd\u12f5\u1245_\u12e8\u1270\u12f0\u1228\u1308\u1260\u1275_\u1240\u1295",
+  "section_break_38",
+  "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12e8\u1230\u1228\u12d8\u12cd_\u1230\u12cd",
+  "column_break_40",
+  "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u12e8\u121a\u1204\u12f1\u1260\u1275_\u1266\u1273",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u12e8\u121a\u1204\u12f1\u1260\u1275 \u1266\u1273",
+   "reqd": 1
+  },
+  {
+   "fieldname": "\u121d\u12ad\u1295\u12eb\u1275",
+   "fieldtype": "Data",
+   "label": "\u121d\u12ad\u1295\u12eb\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1239\u134c\u122d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1239\u134c\u122d \u1235\u121d"
+  },
+  {
+   "fieldname": "\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1230\u120c\u12f3 \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u1208\u12a0\u1308\u120d\u130d\u120e\u1275_\u12e8\u121a\u1348\u1208\u130d\u1260\u1275_\u1230\u12d3\u1275__\u12a8\u12da\u1205_\u130a\u12dc_\u12ed\u1300\u121d\u122b\u120d",
+   "fieldtype": "Datetime",
+   "label": "\u1208\u12a0\u1308\u120d\u130d\u120e\u1275 \u12e8\u121a\u1348\u1208\u130d\u1260\u1275 \u1230\u12d3\u1275  \u12a8\u12da\u1205 \u130a\u12dc \u12ed\u1300\u121d\u122b\u120d"
+  },
+  {
+   "fieldname": "\u1208\u12a0\u1308\u120d\u130d\u120e\u1275_\u12e8\u121a\u1348\u1208\u130d\u1260\u1275_\u1230\u12d3\u1275_\u12a5\u1235\u12a8\u12da\u1205_\u130a\u12dc_\u12f5\u1228\u1235",
+   "fieldtype": "Datetime",
+   "label": "\u1208\u12a0\u1308\u120d\u130d\u120e\u1275 \u12e8\u121a\u1348\u1208\u130d\u1260\u1275 \u1230\u12d3\u1275 \u12a5\u1235\u12a8\u12da\u1205 \u130a\u12dc \u12f5\u1228\u1235"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "transport",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1313\u12e5_\u1235\u121d",
+   "fieldtype": "Table",
+   "label": "\u12e8\u1270\u1313\u12e5 \u1235\u121d",
+   "options": "passengers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading_5",
+   "fieldtype": "Heading",
+   "label": "\u12e8\u1309\u12de \u1246\u12ed\u1273 \u1218\u1228\u1303"
+  },
+  {
+   "fieldname": "\u12e8\u1309\u12de_\u1218\u1230\u1228\u1273\u12ca_\u1218\u1228\u1303",
+   "fieldtype": "Heading",
+   "label": "\u12e8\u1309\u12de \u1218\u1230\u1228\u1273\u12ca \u1218\u1228\u1303"
+  },
+  {
+   "fieldname": "\u12e8\u1309\u12de_\u1239\u134c\u122d_\u1218\u1228\u1303",
+   "fieldtype": "Heading",
+   "label": " \u12e8\u1239\u134c\u122d \u12a5\u1293 \u1218\u12aa\u1293 \u1218\u1228\u1303"
+  },
+  {
+   "fieldname": "\u12e8\u12cd\u1233\u1294_\u1230\u132d_\u1218\u1228\u1303",
+   "fieldtype": "Heading",
+   "label": " \u12e8\u12cd\u1233\u1294 \u1230\u132d \u1218\u1228\u1303"
+  },
+  {
+   "fieldname": "has_been_saved",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "has been saved",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cover",
+   "fieldtype": "HTML",
+   "ignore_xss_filter": 1,
+   "label": "cover",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1320\u12eb\u1242_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1320\u12eb\u1242 \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12a0\u133d\u12f3\u1242\u12cd_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12a0\u133d\u12f3\u1242\u12cd \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1240\u1295",
+   "fieldtype": "Data",
+   "label": " \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1218\u1290\u123b_\u1240\u1295__\u12e8\u1270\u1218\u1208\u1230\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Heading",
+   "label": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a \u1218\u1290\u123b \u1240\u1295 \u12e8\u1270\u1218\u1208\u1230\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12a0\u1228\u130b\u130b\u132d \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1218\u1290\u123b_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a \u1218\u1290\u123b \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1218\u1290\u123b_\u1240\u1295_\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a \u1218\u1290\u123b \u1240\u1295 \u12a0\u1228\u130b\u130b\u132d \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u1270\u123d\u12a8\u122d\u12ab\u122a\u12cd_\u12e8\u1270\u1218\u1208\u1230\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u1270\u123d\u12a8\u122d\u12ab\u122a\u12cd \u12e8\u1270\u1218\u1208\u1230\u1260\u1275 \u1240\u1295 ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u1270\u123d\u12a8\u122d\u12ab\u122a\u12cd_\u12e8\u1270\u1218\u1208\u1230\u1260\u1275_\u1240\u1295_\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1270\u123d\u12a8\u122d\u12ab\u122a\u12cd \u12e8\u1270\u1218\u1208\u1230\u1260\u1275 \u1240\u1295 \u12a0\u1228\u130b\u130b\u132d \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12cd\u12f5\u1245_\u12e8\u1270\u12f0\u1228\u1308\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12cd\u12f5\u1245 \u12e8\u1270\u12f0\u1228\u1308\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u12ed\u1205\u1295 \u1325\u12eb\u1244 \u12cd\u12f5\u1245 \u12eb\u12f0\u1228\u1308 \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12e8\u1230\u1228\u12d8\u12cd_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u12ed\u1205\u1295 \u1325\u12eb\u1244 \u12e8\u1230\u1228\u12d8\u12cd \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u12eb\u1244\u12cd \u1308\u120b\u132d \u1235\u121d",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-11-26 17:03:30.925260",
+ "modified_by": "Administrator",
+ "module": "Gondermgt",
+ "name": "transport",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Driver",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guard",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

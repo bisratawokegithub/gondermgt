@@ -1,0 +1,308 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+ "creation": "2022-11-22 10:54:06.324741",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+  "section_break_199",
+  "\u12e8\u1320\u12eb\u1242\u12cd_\u1235\u121d",
+  "section_break_4",
+  "\u12e8\u12a9\u1356\u1295_\u1241\u1325\u122d",
+  "column_break_6",
+  "\u12e8\u1218\u12aa\u1293\u12cd_\u12d3\u12ed\u1290\u1275",
+  "column_break_8",
+  "\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+  "column_break_10",
+  "\u12aa\u120e_\u121c\u1275\u122d",
+  "section_break_8",
+  "\u12e8\u1290\u12f3\u1305_\u1245\u133d",
+  "\u12e8\u1245\u1263\u1275_\u1245\u133d",
+  "\u12d8\u12ed\u1275_\u1245\u133d",
+  "amended_from",
+  "section_break_11",
+  "\u12e8\u1348\u1243\u1305_\u1235\u121d",
+  "column_break_21",
+  "\u12e8\u1270\u1348\u1240\u12f0\u1260\u1275_\u1240\u1295",
+  "section_break_20",
+  "\u12e8\u1270\u1228\u12a8\u1260\u12cd_\u1235\u121d",
+  "column_break_19",
+  "\u12e8\u1270\u1228\u12a8\u1260\u1260\u1275_\u1240\u1295",
+  "section_break_24",
+  "\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+  "column_break_24",
+  "\u12e8\u1270\u1228\u130b\u1308\u1320\u1260\u1275_\u1240\u1295",
+  "section_break_28",
+  "\u12e8\u1230\u1228\u12d8_\u1230\u12cd_\u1235\u121d",
+  "column_break_30",
+  "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+  "section_break_31",
+  "\u1325\u12eb\u1244\u12cd\u1295_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+  "column_break_33",
+  "\u12cd\u12f5\u1245_\u12e8\u1270\u12f0\u1228\u1308\u1260\u1275_\u1240\u1295",
+  "section_break_35",
+  "\u12eb\u1228\u130b\u1308\u1320\u12cd_\u1230\u12cd",
+  "column_break_37",
+  "\u1240\u1295",
+  "section_break_37",
+  "\u12a5\u1295\u12f3\u120d\u1270\u1240\u1260\u1209_\u12e8\u121a\u1308\u120d\u133d_\u1230\u12cd",
+  "column_break_39",
+  "\u12a5\u1295\u12f3\u120d\u1270\u1240\u1260\u1209_\u12e8\u1308\u1208\u1339\u1260\u1275_\u1240\u1295"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u12e8\u1320\u12eb\u1242\u12cd_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1320\u12eb\u1242\u12cd \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1230\u120c\u12f3 \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u1218\u12aa\u1293\u12cd_\u12d3\u12ed\u1290\u1275",
+   "fieldtype": "Data",
+   "label": " \u12e8\u1218\u12aa\u1293\u12cd \u12d3\u12ed\u1290\u1275"
+  },
+  {
+   "fieldname": "\u12aa\u120e_\u121c\u1275\u122d",
+   "fieldtype": "Data",
+   "label": "\u12aa\u120e \u121c\u1275\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u12a9\u1356\u1295_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u12a9\u1356\u1295 \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u1348\u1243\u1305_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": " \u12e8\u1348\u1243\u1305 \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Fuel and Grease",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u12eb\u1244\u12cd \u1308\u120b\u132d \u1235\u121d",
+   "unique": 1
+  },
+  {
+   "columns": 20,
+   "fieldname": "\u12e8\u1290\u12f3\u1305_\u1245\u133d",
+   "fieldtype": "Table",
+   "label": " \u12e8\u1290\u12f3\u1305 \u1245\u133d",
+   "options": "Fuel"
+  },
+  {
+   "fieldname": "\u12e8\u1245\u1263\u1275_\u1245\u133d",
+   "fieldtype": "Table",
+   "label": "\u12e8\u1245\u1263\u1275 \u1245\u133d",
+   "options": "grease"
+  },
+  {
+   "fieldname": "\u12d8\u12ed\u1275_\u1245\u133d",
+   "fieldtype": "Table",
+   "label": "\u12d8\u12ed\u1275 \u1245\u133d",
+   "options": "oil"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1228\u12a8\u1260\u12cd_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1228\u12a8\u1260\u12cd \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12a0\u1228\u130b\u130b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12a0\u1228\u130b\u130b\u132d \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1348\u1240\u12f0\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1348\u1240\u12f0\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1228\u12a8\u1260\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1228\u12a8\u1260\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1228\u130b\u1308\u1320\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1228\u130b\u1308\u1320\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1230\u1228\u12d8_\u1230\u12cd_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1230\u1228\u12d8 \u1230\u12cd \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u1325\u12eb\u1244\u12cd\u1295_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u1325\u12eb\u1244\u12cd\u1295 \u12cd\u12f5\u1245 \u12eb\u12f0\u1228\u1308 \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12cd\u12f5\u1245_\u12e8\u1270\u12f0\u1228\u1308\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12cd\u12f5\u1245 \u12e8\u1270\u12f0\u1228\u1308\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12eb\u1228\u130b\u1308\u1320\u12cd_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u12eb\u1228\u130b\u1308\u1320\u12cd \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_199",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u12a5\u1295\u12f3\u120d\u1270\u1240\u1260\u1209_\u12e8\u121a\u1308\u120d\u133d_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u12a5\u1295\u12f3\u120d\u1270\u1240\u1260\u1209 \u12e8\u121a\u1308\u120d\u133d \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12a5\u1295\u12f3\u120d\u1270\u1240\u1260\u1209_\u12e8\u1308\u1208\u1339\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12a5\u1295\u12f3\u120d\u1270\u1240\u1260\u1209 \u12e8\u1308\u1208\u1339\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-11-25 15:09:27.620850",
+ "modified_by": "Administrator",
+ "module": "Gondermgt",
+ "name": "Fuel and Grease",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

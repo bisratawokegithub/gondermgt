@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+ "creation": "2022-11-23 11:29:55.243745",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+  "section_break_2",
+  "\u12e8\u1320\u12eb\u1242\u12c9_\u1225\u121d",
+  "column_break_2",
+  "\u12eb\u1228\u130b\u1308\u1320\u12c9_\u1225\u121d",
+  "section_break_3",
+  "\u12eb\u1340\u12f0\u1240\u12c9_\u1235\u121d",
+  "column_break_5",
+  "\u12e8\u1340\u12f0\u1240\u1260\u1275_\u1240\u1295",
+  "section_break_7",
+  "\u12e8\u130e\u121b_\u1325\u12eb\u1244_\u1218\u1228\u1303",
+  "amended_from",
+  "section_break_11",
+  "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+  "column_break_13",
+  "\u12cd\u12f5\u1245_\u12e8\u1270\u12f0\u1228\u1308\u1260\u1275_\u1240\u1295",
+  "section_break_12",
+  "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12e8\u1230\u1228\u12d8\u12cd_\u1230\u12cd",
+  "column_break_14",
+  "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+  "section_break_16"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u12e8\u1320\u12eb\u1242\u12c9_\u1225\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1320\u12eb\u1242\u12c9 \u1225\u121d ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12eb\u1228\u130b\u1308\u1320\u12c9_\u1225\u121d",
+   "fieldtype": "Data",
+   "label": "\u12eb\u1228\u130b\u1308\u1320\u12c9 \u1225\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12eb\u1340\u12f0\u1240\u12c9_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12eb\u1340\u12f0\u1240\u12c9 \u1235\u121d ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "tire change request",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u130e\u121b_\u1325\u12eb\u1244_\u1218\u1228\u1303",
+   "fieldtype": "Table",
+   "label": "\u12e8\u130e\u121b \u1325\u12eb\u1244 \u1218\u1228\u1303",
+   "options": "tire"
+  },
+  {
+   "fieldname": "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": " \u12ed\u1205\u1295 \u1325\u12eb\u1244 \u12cd\u12f5\u1245 \u12eb\u12f0\u1228\u1308 \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12e8\u1230\u1228\u12d8\u12cd_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u12ed\u1205\u1295 \u1325\u12eb\u1244 \u12e8\u1230\u1228\u12d8\u12cd \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u12cd\u12f5\u1245_\u12e8\u1270\u12f0\u1228\u1308\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12cd\u12f5\u1245 \u12e8\u1270\u12f0\u1228\u1308\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1340\u12f0\u1240\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": " \u12e8\u1340\u12f0\u1240\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u12eb\u1244\u12cd \u1308\u120b\u132d \u1235\u121d",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-11-25 14:46:06.588126",
+ "modified_by": "Administrator",
+ "module": "Gondermgt",
+ "name": "tire change request",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Driver",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "stock manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BizAdmin",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

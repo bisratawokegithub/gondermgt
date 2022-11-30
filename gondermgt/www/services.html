@@ -1,0 +1,196 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<style>
+
+    .welcome {
+
+        height: 60vh;
+
+        background-color:  gold;
+
+        display: none;
+
+    }
+    .cont {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        padding-left: 150px;
+
+
+    }
+    .header {
+
+        position: relative;
+
+        bottom: 50px;
+
+
+    }
+
+    .bd {
+
+        grid-column-start: 1;
+
+        grid-column-end: 12;
+
+
+    }
+
+    .personelInfo {
+
+       
+        background-color: rgb(148, 148, 2);
+
+        color: white;
+
+        width: 300px;
+
+        font-size: larger;
+
+        
+
+    }
+
+    .rowOfEmps {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        font-size: medium;
+
+        color: black;
+
+        margin-top: 10px;
+
+       
+
+    }
+
+    p {
+
+        color: black;
+
+    }
+</style>
+
+<div class="welcome">
+
+
+
+</div>
+<div class="cont">
+
+
+
+
+    <div class="header">
+        
+ 
+        <h3 style="color: rgb(177, 174, 5); margin-bottom: 20px;">
+            የትራንስፖርት አገልግሎት
+        </h3>
+        
+        <span class="personelInfo">
+            የሚቀርቡት አገልግሎቶች
+        </span>
+    
+        
+            
+            <div class="rowOfEmps">
+        
+                <p class="text-muted">የተሽከርካሪ ጥያቄ</p>
+    
+                <p class="text-muted">የተሽከርካሪ ጥያቄ ሁኔታ መግለጫ</p>
+    
+                <span class="personelInfo">
+                    
+                    አዲስ የተሽከርካሪ ጥያቄ ለማቅረብ እባክዎ ከታች ያለውን ሊንክ ይከተሉ
+                </span>
+                <p>
+    
+                    <a href="/app/transport/new-transport-1">አዲስ የተሽከርካሪ ጥያቄ</a>
+                </p>
+                <span class="personelInfo">
+                    
+                    
+                    ከዚህ ቀደም የተጠየቁ የተሽከርካሪ ጥያቄዎችን ለመከታተል ከታች ያለውን ሊንክ ይከተሉ
+                </span>
+                
+                    <a href="/app/transport">ከዚህ ቀደም የተጠየቁ ጥያቄዎችን ለመከታተል</a>
+                </p>
+            </div>
+        
+        
+        
+    </div>
+    
+    
+    
+  <!--
+
+
+
+      
+      <div class="header">
+        
+              <h3 style="color: rgb(177, 174, 5); margin-bottom: 20px;">
+                  የትራንስፖርት አገልግሎት
+              </h3>
+              
+              <span class="personelInfo">
+                  የሚቀርቡት አገልግሎቶች
+              </span>
+          
+              
+                  
+                  <div class="rowOfEmps">
+                      
+                      <p style="display: hidden;" class="hidden">
+                      
+                          something
+                      </p> 
+              
+                      <p class="text-muted">የተሽከርካሪ ጥያቄ</p>
+          
+                      <p class="text-muted">የተሽከርካሪ ጥያቄ ሁኔታ መግለጫ</p>
+          
+                      <span class="personelInfo">
+                          
+                          አዲስ የተሽከርካሪ ጥያቄ ለማቅረብ እባክዎ ከታች ያለውን ሊንክ ይከተሉ
+                      </span>
+                      <p>
+          
+                          <a href="/app/transport/new-transport-1">አዲስ የተሽከርካሪ ጥያቄ</a>
+                      </p>
+                      <span class="personelInfo">
+                          
+                          
+                          ከዚህ ቀደም የተጠየቁ የተሽከርካሪ ጥያቄዎችን ለመከታተል ከታች ያለውን ሊንክ ይከተሉ
+                      </span>
+                      
+                          <a href="/app/transport">ከዚህ ቀደም የተጠየቁ ጥያቄዎችን ለመከታተል</a>
+                      </p>
+                  </div>
+              
+              
+              
+          </div>
+  
+  
+  
+  
+          
+  -->  
+
+   
+        
+</div>
+
+{% endblock %}

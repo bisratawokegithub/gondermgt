@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+ "creation": "2022-11-24 09:21:55.022060",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u134b\u12ab\u120a\u1272",
+  "\u12e8\u1325\u1308\u1293\u12c9_\u12d3\u12ed\u1290\u1275",
+  "\u1325\u1308\u1293\u12c9\u1295_\u12e8\u1320\u12e8\u1240\u12c9_\u1220\u122b\u1270\u129b_\u1235\u121d",
+  "\u1260\u1225\u122b_\u120b\u12ed_\u12e8\u12cb\u1209_\u121b\u1274\u122a\u12eb\u120e\u127d__\u12a5\u1293_\u12e8\u1309\u120d\u1260\u1275_\u12cb\u130b_\u12dd\u122d\u12dd\u122d",
+  "\u1325\u1308\u1293\u12c9\u1295_\u12eb\u12a8\u1293\u12c8\u1290\u12c9_\u1263\u1208\u1219\u12eb_\u1230\u122b\u1270\u129b_\u1235\u121d",
+  "section_break_20",
+  "\u1325\u1308\u1293\u12cd\u1295_\u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1290\u12cd_\u1230\u12cd",
+  "column_break_8",
+  "\u12e8\u1325\u1308\u1293_\u1218\u1300\u1218\u122a\u12eb_\u1240\u1295",
+  "column_break_11",
+  "\u1325\u1308\u1293\u12cd_\u12e8\u1270\u1320\u1293\u1240\u1240\u1260\u1275_\u1240\u1295",
+  "section_break_10",
+  "amended_from",
+  "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+  "section_break_9",
+  "\u1325\u1308\u1293\u12c9\u1295_\u12e8\u1230\u1228\u12d8\u12cd",
+  "column_break_19",
+  "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+  "section_break_13",
+  "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+  "column_break_15",
+  "\u1240\u1295",
+  "section_break_17",
+  "\u1325\u1308\u1293\u12c9\u1295_\u12e8\u1270\u1228\u12a8\u1260\u12c9",
+  "column_break_25",
+  "\u1270\u1228\u12a8\u1260\u12c9_\u1240\u1295"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u134b\u12ab\u120a\u1272",
+   "fieldtype": "Data",
+   "label": "\u134b\u12ab\u120a\u1272"
+  },
+  {
+   "fieldname": "\u12e8\u1325\u1308\u1293\u12c9_\u12d3\u12ed\u1290\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1325\u1308\u1293\u12c9 \u12d3\u12ed\u1290\u1275"
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12c9\u1295_\u12e8\u1320\u12e8\u1240\u12c9_\u1220\u122b\u1270\u129b_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u1308\u1293\u12c9\u1295 \u12e8\u1320\u12e8\u1240\u12c9 \u1220\u122b\u1270\u129b \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1260\u1225\u122b_\u120b\u12ed_\u12e8\u12cb\u1209_\u121b\u1274\u122a\u12eb\u120e\u127d__\u12a5\u1293_\u12e8\u1309\u120d\u1260\u1275_\u12cb\u130b_\u12dd\u122d\u12dd\u122d",
+   "fieldtype": "Table",
+   "label": "\u1260\u1225\u122b \u120b\u12ed \u12e8\u12cb\u1209 \u121b\u1274\u122a\u12eb\u120e\u127d  \u12a5\u1293 \u12e8\u1309\u120d\u1260\u1275 \u12cb\u130b \u12dd\u122d\u12dd\u122d ",
+   "options": "maintenance cost"
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12c9\u1295_\u12eb\u12a8\u1293\u12c8\u1290\u12c9_\u1263\u1208\u1219\u12eb_\u1230\u122b\u1270\u129b_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u1308\u1293\u12c9\u1295 \u12eb\u12a8\u1293\u12c8\u1290\u12c9 \u1263\u1208\u1219\u12eb \u1230\u122b\u1270\u129b \u1235\u121d ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "maintenance request",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12c9\u1295_\u12e8\u1230\u1228\u12d8\u12cd",
+   "fieldtype": "Data",
+   "label": "\u1325\u1308\u1293\u12c9\u1295 \u12e8\u1230\u1228\u12d8\u12cd \u1220\u122b\u1270\u129b",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12ed\u1205\u1295_\u1325\u12eb\u1244_\u12cd\u12f5\u1245_\u12eb\u12f0\u1228\u1308_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": "\u12ed\u1205\u1295 \u1325\u12eb\u1244 \u12cd\u12f5\u1245 \u12eb\u12f0\u1228\u1308 \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1325\u1308\u1293_\u1218\u1300\u1218\u122a\u12eb_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1325\u1308\u1293 \u1218\u1300\u1218\u122a\u12eb \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12cd_\u12e8\u1270\u1320\u1293\u1240\u1240\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": " \u1325\u1308\u1293\u12cd \u12e8\u1270\u1320\u1293\u1240\u1240\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1230\u1228\u12d8\u1260\u1275 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12cd\u1295_\u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1290\u12cd_\u1230\u12cd",
+   "fieldtype": "Data",
+   "label": " \u1325\u1308\u1293\u12cd\u1295 \u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1290\u12cd \u1230\u12cd",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u1270\u1228\u12a8\u1260\u12c9_\u1240\u1295",
+   "fieldtype": "Data",
+   "label": "\u1270\u1228\u12a8\u1260\u12c9 \u1240\u1295",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12c9\u1295_\u12e8\u1270\u1228\u12a8\u1260\u12c9",
+   "fieldtype": "Data",
+   "label": "\u1325\u1308\u1293\u12c9\u1295 \u12e8\u1270\u1228\u12a8\u1260\u12c9",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u12eb\u1244\u12cd \u1308\u120b\u132d \u1235\u121d",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-11-25 14:09:20.106138",
+ "modified_by": "Administrator",
+ "module": "Gondermgt",
+ "name": "maintenance request",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

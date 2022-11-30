@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-28 10:49:32.423233",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u121e\u12f4\u120d",
+  "\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
+  "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d",
+  "\u12a0\u1245\u121d",
+  "amended_from",
+  "\u1239\u134c\u122d_\u12ed\u121d\u1228\u1321",
+  "\u12e8\u1270\u1218\u12f0\u1260_\u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u121e\u12f4\u120d",
+   "fieldtype": "Data",
+   "label": " \u121e\u12f4\u120d"
+  },
+  {
+   "fieldname": "\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1273\u122d\u130b \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d",
+   "fieldtype": "Table MultiSelect",
+   "label": "\u12e8\u1270\u1218\u12f0\u1260 \u1239\u134c\u122d",
+   "options": "assgnee"
+  },
+  {
+   "fieldname": "\u12a0\u1245\u121d",
+   "fieldtype": "Data",
+   "label": "\u12a0\u1245\u121d"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "vehicle management",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1239\u134c\u122d_\u12ed\u121d\u1228\u1321",
+   "fieldtype": "Table",
+   "label": " \u1239\u134c\u122d \u12ed\u121d\u1228\u1321",
+   "options": "assgnee2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1218\u12f0\u1260_\u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1218\u12f0\u1260 \u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a \u1235\u121d",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-11-29 15:22:56.280869",
+ "modified_by": "Administrator",
+ "module": "Gondermgt",
+ "name": "vehicle management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
