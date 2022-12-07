@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
  "creation": "2022-11-28 10:49:32.423233",
  "default_view": "List",
  "doctype": "DocType",
@@ -9,11 +10,12 @@
  "field_order": [
   "\u121e\u12f4\u120d",
   "\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
-  "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d",
   "\u12a0\u1245\u121d",
   "amended_from",
   "\u1239\u134c\u122d_\u12ed\u121d\u1228\u1321",
-  "\u12e8\u1270\u1218\u12f0\u1260_\u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d"
+  "\u12e8\u1270\u1218\u12f0\u1260_\u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d",
+  "assigned_driver",
+  "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d"
  ],
  "fields": [
   {
@@ -24,13 +26,14 @@
   {
    "fieldname": "\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
    "fieldtype": "Data",
-   "label": "\u12e8\u1273\u122d\u130b \u1241\u1325\u122d"
+   "label": "\u12e8\u1273\u122d\u130b \u1241\u1325\u122d",
+   "unique": 1
   },
   {
    "fieldname": "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d",
-   "fieldtype": "Table MultiSelect",
+   "fieldtype": "Data",
    "label": "\u12e8\u1270\u1218\u12f0\u1260 \u1239\u134c\u122d",
-   "options": "assgnee"
+   "read_only": 1
   },
   {
    "fieldname": "\u12a0\u1245\u121d",
@@ -48,25 +51,32 @@
   },
   {
    "fieldname": "\u1239\u134c\u122d_\u12ed\u121d\u1228\u1321",
-   "fieldtype": "Table",
+   "fieldtype": "Table MultiSelect",
    "label": " \u1239\u134c\u122d \u12ed\u121d\u1228\u1321",
-   "options": "assgnee2",
-   "read_only": 1
+   "options": "assgnee"
   },
   {
    "fieldname": "\u12e8\u1270\u1218\u12f0\u1260_\u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d",
    "fieldtype": "Data",
    "label": "\u12e8\u1270\u1218\u12f0\u1260 \u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a \u1235\u121d",
    "read_only": 1
+  },
+  {
+   "fieldname": "assigned_driver",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "assigned_driver",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-11-29 15:22:56.280869",
+ "modified": "2022-12-05 11:02:10.163626",
  "modified_by": "Administrator",
  "module": "Gondermgt",
  "name": "vehicle management",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

@@ -29,10 +29,17 @@ class transport(Document):
 			#self.has_been_saved = 1
 
 			#self.cover = "<div style='width:100vh;height:100vh;background-color:black;'> hello<div>"
+			docInfo = self.as_dict()
 
 			if self.workflow_state == "Requested":
 				
-				self.የጠያቂ_ስም= self.currentUser["id"]
+				self.የጠያቂ_ስም = self.currentUser["id"]
+
+				print('--------- in before save-----------vehicle information')
+
+				print( docInfo['ተሽከርካሪ_ይምረጡ'])
+
+				#self.የተመረጠው_ተሽከርካሪ_የሰሌዳ_ቁጥር = docInfo['ተሽከርካሪ_ይምረጡ'][0]
 			
 			if self.workflow_state == "In Trip":
 

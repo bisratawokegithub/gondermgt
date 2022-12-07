@@ -17,6 +17,10 @@ class vehiclemanagement(Document):
 		self.currentUser['roles'] = frappe.get_roles(self.currentUser['id'])
 
 
+	def on_update(self):
+
+		#frappe.msgprint(f"{self.workflow_state}")
+		frappe.msgprint(f"{self.workflow_state}")
 
 	def before_save(self):
 
@@ -31,32 +35,76 @@ class vehiclemanagement(Document):
 
 				print(' just removed old user')
 
+				#docInfo = self.as_dict()
+				 
+				#driverInfo = docInfo['የተመደበ_ሹፌር'][0]
+
+				#frappe.db.sql(f"""
+				#	update `tabUser` set is_assigned_car = 0 where email = '{driverInfo['user']}' 
+				#""")
+
+			if self.workflow_state == "Waiting for driver confirmation":
+
+				print('-------------------- waiting for driver confirmation------------------')
+
 				docInfo = self.as_dict()
 				
-				driverInfo = docInfo['የተመደበ_ሹፌር'][0]
-				
-				frappe.db.sql(f"""
-					update `tabUser` set is_assigned_car = 0 where email = '{driverInfo['user']}' 
-				""")
-
-
-
-			if self.workflow_state == "Driver assigned":
-
-				docInfo = self.as_dict()
-				
-				driverInfo = docInfo['የተመደበ_ሹፌር'][0]
+				print(docInfo['ሹፌር_ይምረጡ'])
+				#driverInfo = docInfo['የተመደበ_ሹፌር'][0]
+				driverInfo = docInfo['ሹፌር_ይምረጡ'][0]
 				
 				print(driverInfo)
 				
+				print(self.currentUser['id'])
+
+
+				print('-------------------- time to update the users info-------------------')
+
+					#self.assigned_driver = driverInfo['user']
+				self.የተመደበ_ሹፌር = driverInfo['user']
+
+
+					#remove this during production
+					#frappe.db.sql(f"""
+					#	update `tabUser` set is_assigned_car = 1 where email = '{driverInfo['user']}' 
+					#""")
+
+				
+				mssg = f"You have been assigned to vehicle please follow link below to confirm. https://gondermgt.localhost:8000/app/vehicle management/{self.name}"
+
+				#frappe.sendmail(recipients=[self.የተመደበ_ሹፌር],content=mssg)
+					
+				print('----------------------all good in the hood----------------------------')
+
+			pass
+
+			if self.workflow_state == "Driver assigned" :
+				
+				print('-------------------- in driver assigned------------------')
+
+				docInfo = self.as_dict()
+				
+				print(docInfo['ሹፌር_ይምረጡ'])
+				#driverInfo = docInfo['የተመደበ_ሹፌር'][0]
+				driverInfo = docInfo['ሹፌር_ይምረጡ'][0]
+				
+				print(driverInfo)
+				
+				print(self.currentUser['id'])
+
 				if self.currentUser['id'] != driverInfo['user']:
 			
-					raise Exception(f"You are not {driverInfo['user']} so you can confirm on there behalf")
+					raise Exception(f"You are not {driverInfo['user']} so you can not confirm on there behalf")
 
 				else:
 
 					print('-------------------- time to update the users info-------------------')
 
+					#self.assigned_driver = driverInfo['user']
+					self.የተመደበ_ሹፌር = driverInfo['user']
+
+
+					#remove this during production
 					frappe.db.sql(f"""
 						update `tabUser` set is_assigned_car = 1 where email = '{driverInfo['user']}' 
 					""")

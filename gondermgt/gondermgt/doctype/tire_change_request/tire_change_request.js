@@ -12,6 +12,7 @@ frappe.ui.form.on("tire change request", {
 
     onload(form) {
 
+        //show_alert('hey brother have you seen avicii...ow wait he died... its about time',5)
         switch(form.doc.workflow_state) {
 
             case "Draft":

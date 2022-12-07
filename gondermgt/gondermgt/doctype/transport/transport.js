@@ -30,6 +30,24 @@ frappe.ui.form.on("transport", {
 
     onload(form) {
 
+        switch(form.doc.workflow_state) {
+
+            case "Requested":
+
+                getVehicles(form)
+
+                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],true)
+
+                break
+
+            default:
+
+                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
+                
+                break
+
+        }
+/*
         let fields = [
 
             'ለአገልግሎት_የሚፈለግበት_ሰዓት__ከዚህ_ጊዜ_ይጀምራል',
@@ -48,6 +66,7 @@ frappe.ui.form.on("transport", {
         fields = form.doc.workflow_state != "Draft" && form.doc.workflow_state != "Requested" ? fields = [...fields,'የሹፌር_ስም','የሰሌዳ_ቁጥር'] : fields
 
         
+        
         if(form.doc.workflow_state != "Draft"){
 
             setFieldsToReadOnly(fields,form)
@@ -58,6 +77,33 @@ frappe.ui.form.on("transport", {
 
         }
 
+        if(form.doc.workflow_state == "Requested") {
+
+            form.toggle_display(['ተሽከርካሪ_ይምረጡ'],true)
+
+        }else {
+
+
+        }
+        
+        /*
+         //getDrivers(form)
+         switch(form.doc.workflow_state) {
+
+            case "Request":
+                
+
+                break
+
+                
+            default:
+                
+                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
+
+                setFieldsToReadOnly(fields,form)
+
+        }
+        */
         /*
         if(form.doc.workflow_state == "Approved") {
 
@@ -107,6 +153,24 @@ frappe.ui.form.on("transport", {
     },
 })
 
+
+//get list of vehicles
+
+function getVehicles(form) {
+
+    form.set_query('ተሽከርካሪ_ይምረጡ',() => {
+
+        return {
+
+            query: "gondermgt.api.getCars",
+
+        };
+
+    })
+
+
+
+}
 /*
 
 1. driver -->  stock manager --> completed
