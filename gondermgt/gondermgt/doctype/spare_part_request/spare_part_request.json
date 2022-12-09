@@ -11,6 +11,7 @@
   "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
   "section_break_2",
   "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u12c9_\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+  "\u1270\u123d\u12a8\u122d\u12ab\u122a_\u12ed\u121d\u1228\u1321",
   "column_break_2",
   "\u12e8\u1218\u12aa\u1293_\u12d3\u12ed\u1290\u1275",
   "section_break_4",
@@ -47,12 +48,14 @@
   {
    "fieldname": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u12c9_\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
    "fieldtype": "Data",
-   "label": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u12c9 \u12e8\u1230\u120c\u12f3 \u1241\u1325\u122d"
+   "label": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u12c9 \u12e8\u1230\u120c\u12f3 \u1241\u1325\u122d",
+   "read_only": 1
   },
   {
    "fieldname": "\u12e8\u1218\u12aa\u1293_\u12d3\u12ed\u1290\u1275",
    "fieldtype": "Data",
-   "label": "\u12e8\u1218\u12aa\u1293 \u12d3\u12ed\u1290\u1275"
+   "label": "\u12e8\u1218\u12aa\u1293 \u12d3\u12ed\u1290\u1275",
+   "read_only": 1
   },
   {
    "fieldname": "\u12e8\u1218\u1208\u12cb\u12c8\u132b_\u12a0\u12ed\u1290\u1275_\u1218\u1208\u12eb_\u1241\u1325\u122d",
@@ -211,12 +214,18 @@
   {
    "fieldname": "section_break_10",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u1270\u123d\u12a8\u122d\u12ab\u122a_\u12ed\u121d\u1228\u1321",
+   "fieldtype": "Table MultiSelect",
+   "label": "\u1270\u123d\u12a8\u122d\u12ab\u122a \u12ed\u121d\u1228\u1321",
+   "options": "vehicle"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-11-26 19:09:39.877938",
+ "modified": "2022-12-08 16:15:40.072053",
  "modified_by": "Administrator",
  "module": "Gondermgt",
  "name": "spare part request",

@@ -13,27 +13,63 @@ frappe.ui.form.on("spare part request", {
 
     
     onload(form) {
+        
+        frappe.show_alert({
+            
+            message:__(form.doc.workflow_state),
+            
+            indicator:form.doc.workflow_state == 'Rejected' || form.doc.workflow_state == 'canceled'? 'red' : 'green'
+        
+        },5 )
 
         let fields = ['የመኪና_ዓይነት','የተሽከርካዉ_የሰሌዳ_ቁጥር','የአንዱ_ዋጋ','ብዛት','የመለዋወጫ_አይነት_መለያ_ቁጥር'] 
         
+
         switch(form.doc.workflow_state){
 
             case "Draft":
+                
+                getVehicles(form)
 
                 return
+            
+            case "Requested":
 
+                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],0)
+                
+                setReadOnly(fields,form)
             default:
 
                 setReadOnly(fields,form)
 
         }
 
-
-        
-
-
-       
     },
-	refresh(frm) {
- 	},
 });
+
+
+
+
+//get list of vehicles
+
+function getVehicles(form) {
+
+    form.set_query('ተሽከርካሪ_ይምረጡ',function(){
+
+        return {
+
+            query: "gondermgt.api.getCars",
+
+            filters: {
+
+                'from': 'spare'
+
+            }
+
+        };
+
+    })
+
+
+
+}

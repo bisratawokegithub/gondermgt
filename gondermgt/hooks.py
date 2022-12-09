@@ -27,7 +27,7 @@ app_license = "MIT"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
-
+page_js = {"app":"public/js/hide_help_menu.js"}
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
@@ -186,3 +186,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"gondermgt.auth.validate"
 # ]
+#app_include_js = "/assets/gondermgt/js/hide_help_menu.js"

@@ -24,11 +24,18 @@ function setReadOnly(fields,form) {
 frappe.ui.form.on("vehicle management", {
 
     onload(form) {
+
+        frappe.show_alert({
+            
+            message:__(form.doc.workflow_state),
+            
+            indicator:'green'
         
+        },5 )
         //getDrivers(form)
         switch(form.doc.workflow_state) {
 
-            case "Added new vehicle entry":
+            case "receiver confirmed":
                 
                 getListOfDrivers(form)
 
@@ -69,7 +76,7 @@ frappe.ui.form.on("vehicle management", {
             
             if(numberOfDrivers > 1 ) frappe.throw('You can only assign one driver at a time')
 
-            frappe.show_alert(form.doc.workflow_state,5 )
+            //frappe.show_alert(form.doc.workflow_state,5 )
         }
 
 

@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+ "creation": "2022-12-08 14:34:18.326853",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+  "\u12e8\u1218\u1235\u122d\u12eb\u1264\u1271_\u1235\u121d",
+  "\u1270\u123d\u12a8\u122d\u12ab\u122a_\u12ed\u121d\u1228\u1321",
+  "\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+  "\u12e8\u1270\u1238\u12a8\u122d\u12ab\u122a\u12cd_\u12d3\u12ed\u1290\u1275",
+  "\u12e8\u1265\u120d\u123d\u1275_\u12a0\u12ed\u1290\u1275",
+  "\u1265\u120d\u123d\u1271\u1295_\u12e8\u1308\u1208\u1340\u12cd_\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u12c8\u12ed\u121d_\u1239\u134c\u122d",
+  "\u1325\u1308\u1293\u12cd\u1295_\u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1295_\u1218\u12ab\u1292\u12ad_\u12ed\u121d\u1228\u1321",
+  "\u12e8\u1235\u121d\u122a\u1275_\u12a0\u1235\u1270\u1263\u1263\u122a_\u1235\u121d",
+  "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d\u122a\u1275\u1293_\u130b\u122b\u12e5_\u12a0\u1235\u1270\u1263\u1263\u122a_\u1235\u121d",
+  "amended_from",
+  "\u1325\u1308\u1293\u12cd\u1295_\u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1295_\u1218\u12ab\u1292\u12ad_\u1235\u121d"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u12e8\u1218\u1235\u122d\u12eb\u1264\u1271_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1218\u1235\u122d\u12eb\u1264\u1271 \u1235\u121d"
+  },
+  {
+   "fieldname": "\u12e8\u1230\u120c\u12f3_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1230\u120c\u12f3 \u1241\u1325\u122d ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1270\u1238\u12a8\u122d\u12ab\u122a\u12cd_\u12d3\u12ed\u1290\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u1238\u12a8\u122d\u12ab\u122a\u12cd \u12d3\u12ed\u1290\u1275",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1265\u120d\u123d\u1275_\u12a0\u12ed\u1290\u1275",
+   "fieldtype": "Text",
+   "label": "\u12e8\u1265\u120d\u123d\u1275 \u12a0\u12ed\u1290\u1275 "
+  },
+  {
+   "fieldname": "\u1265\u120d\u123d\u1271\u1295_\u12e8\u1308\u1208\u1340\u12cd_\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u12c8\u12ed\u121d_\u1239\u134c\u122d",
+   "fieldtype": "Data",
+   "label": "\u1265\u120d\u123d\u1271\u1295 \u12e8\u1308\u1208\u1340\u12cd \u12a0\u123d\u12a8\u122d\u12ab\u122a \u12c8\u12ed\u121d \u1239\u134c\u122d ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12cd\u1295_\u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1295_\u1218\u12ab\u1292\u12ad_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u1308\u1293\u12cd\u1295 \u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1295 \u1218\u12ab\u1292\u12ad \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1235\u121d\u122a\u1275_\u12a0\u1235\u1270\u1263\u1263\u122a_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1235\u121d\u122a\u1275 \u12a0\u1235\u1270\u1263\u1263\u122a \u1235\u121d ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d\u122a\u1275\u1293_\u130b\u122b\u12e5_\u12a0\u1235\u1270\u1263\u1263\u122a_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a \u1235\u121d\u122a\u1275\u1293 \u130b\u122b\u12e5 \u12a0\u1235\u1270\u1263\u1263\u122a \u1235\u121d",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "vehicle maintenance service",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1325\u12eb\u1244\u12cd_\u1308\u120b\u132d_\u1235\u121d",
+   "fieldtype": "Data",
+   "label": "\u1325\u12eb\u1244\u12cd \u1308\u120b\u132d \u1235\u121d",
+   "unique": 1
+  },
+  {
+   "fieldname": "\u1270\u123d\u12a8\u122d\u12ab\u122a_\u12ed\u121d\u1228\u1321",
+   "fieldtype": "Table MultiSelect",
+   "label": "\u1270\u123d\u12a8\u122d\u12ab\u122a \u12ed\u121d\u1228\u1321",
+   "options": "vehicle"
+  },
+  {
+   "fieldname": "\u1325\u1308\u1293\u12cd\u1295_\u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1295_\u1218\u12ab\u1292\u12ad_\u12ed\u121d\u1228\u1321",
+   "fieldtype": "Table MultiSelect",
+   "label": "\u1325\u1308\u1293\u12cd\u1295 \u12e8\u121a\u12eb\u12a8\u1293\u12cd\u1295 \u1218\u12ab\u1292\u12ad  \u12ed\u121d\u1228\u1321",
+   "options": "assgnee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-12-08 15:32:02.529230",
+ "modified_by": "Administrator",
+ "module": "Gondermgt",
+ "name": "vehicle maintenance service",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

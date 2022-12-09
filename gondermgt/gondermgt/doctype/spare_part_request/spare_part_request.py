@@ -24,9 +24,21 @@ class sparepartrequest(Document):
 		print(f" current user = {currentUser['id']} and there roles = {currentUser['roles']}")
 
 		if self.workflow_state == "Requested":
+
+			print('----------- in requested-----------------')
+
+			print('------------- about to print the vehicle info----------------')
+
+			docInfo = self.as_dict()
+
+			vehicle = docInfo['ተሽከርካሪ_ይምረጡ'][0]
 			#self.መለዋወጫዉን_የጠየቀዉ_መካኒክ_ስም
 			self.መለዋወጫዉን_የጠየቀዉ_መካኒክ_ስም = currentUser["id"]
 			
+
+			self.የተሽከርካዉ_የሰሌዳ_ቁጥር = vehicle['name']
+
+			print(vehicle)
 			pass
 		
 		if self.workflow_state == "Approved":

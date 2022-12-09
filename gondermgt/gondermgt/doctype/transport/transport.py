@@ -32,14 +32,48 @@ class transport(Document):
 			docInfo = self.as_dict()
 
 			if self.workflow_state == "Requested":
+				print('------------------- in requested state--------')
+
+				if 'Vehicle approver' not in self.currentUser['roles'] or self.የጠያቂ_ስም == None:
+					
+					self.የጠያቂ_ስም = self.currentUser["id"]
 				
-				self.የጠያቂ_ስም = self.currentUser["id"]
+				else:
 
-				print('--------- in before save-----------vehicle information')
+					print('--------- in before save-----------vehicle information')
+					
+				
+				#self.የተመረጠው_ተሽከርካሪ_የሰሌዳ_ቁጥር = docInfo['ተሽከርካሪ_ይምረጡ'][0]
 
+		
+			if self.workflow_state == "vehicle assigned":
+
+				print('------------in before save (vehicle assigned)----------')
 				print( docInfo['ተሽከርካሪ_ይምረጡ'])
 
-				#self.የተመረጠው_ተሽከርካሪ_የሰሌዳ_ቁጥር = docInfo['ተሽከርካሪ_ይምረጡ'][0]
+				selected_vehicle = docInfo['ተሽከርካሪ_ይምረጡ'][0]
+
+				print(selected_vehicle)
+				
+				self.assignVehicleToTrip(selected_vehicle['vehicle'],self.ለአገልግሎት_የሚፈለግበት_ሰዓት_እስከዚህ_ጊዜ_ድረስ)
+
+				self.የተመረጠው_ተሽከርካሪ_የሰሌዳ_ቁጥር = selected_vehicle['vehicle']
+				
+				print(f"--------in approved who are you = {self.አጽዳቂው_ስም}----------")
+				
+				self.የተመደበው_ተሽከርካሪ_የሰሌዳ_ቁጥር = self.የተመረጠው_ተሽከርካሪ_የሰሌዳ_ቁጥር
+
+				driver = frappe.db.get_list('vehicle management',fields=['የተመደበ_ሹፌር'],filters=[["name","=",self.የተመደበው_ተሽከርካሪ_የሰሌዳ_ቁጥር]])
+
+				print(driver)
+
+				driver_name = driver[0]['የተመደበ_ሹፌር']
+
+				print(driver_name)
+
+				self.የተመደበው_ሹፌር_ስም = driver_name
+
+				print('------------printed driver info---------------')
 			
 			if self.workflow_state == "In Trip":
 
@@ -69,7 +103,9 @@ class transport(Document):
 
 				self.ቀን = str(frappe.utils.getdate())
 				self.አጽዳቂው_ስም = self.currentUser['id']
-				print(f"--------in approved who are you = {self.አጽዳቂው_ስም}----------")
+				
+
+			
 
 			if self.workflow_state == "Rejected":
 
@@ -100,7 +136,24 @@ class transport(Document):
 			print(ex)
 
 		
+	#assign vehicle to trip
+	def assignVehicleToTrip(self,license_plate,trip_end_date):
+		
+		try:
+			
+			print('---------- in assigning vehicle to trip-----------------')
 
+			print(license_plate)
+			
+			frappe.db.set_value('vehicle management',license_plate,'isassignedtotrip',1)
+
+			frappe.db.set_value('vehicle management',license_plate,'tripEndDate',trip_end_date)
+			
+			return
+
+		except Exception as ex:
+
+			print(ex)
 
 	
 

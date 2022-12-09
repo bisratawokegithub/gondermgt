@@ -47,7 +47,9 @@ function setWrite(fields,form) {
 frappe.ui.form.on("maintenance request", {
 
     onload(form) {
+        
         console.log(form.doc.workflow_state)
+
         let fields = ['የጥገናዉ_ዓይነት','በሥራ_ላይ_የዋሉ_ማቴሪያሎች__እና_የጉልበት_ዋጋ_ዝርዝር','ፋካሊቲ']
         
         switch(form.doc.workflow_state) {

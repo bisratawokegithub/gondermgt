@@ -8,21 +8,96 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "\u121e\u12f4\u120d",
   "\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
-  "\u12a0\u1245\u121d",
+  "\u12e8\u1218\u12aa\u1293_\u12d3\u12ed\u1290\u1275",
   "amended_from",
-  "\u1239\u134c\u122d_\u12ed\u121d\u1228\u1321",
+  "\u12e8\u121e\u1270\u122d_\u1201\u1294\u1273_\u12e8\u121a\u1220\u122b",
+  "\u1240\u1260\u1276",
+  "column_break_7",
   "\u12e8\u1270\u1218\u12f0\u1260_\u12e8\u12a0\u123d\u12a8\u122d\u12ab\u122a_\u1235\u121d",
   "assigned_driver",
-  "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d"
+  "isassignedtotrip",
+  "tripenddate",
+  "\u12e8\u121e\u1270\u122d_\u1241\u1325",
+  "\u12e8\u12a0\u12ab\u1209_\u1201\u1294\u1273",
+  "\u12e8\u127b\u1232_\u1241\u1325\u122d",
+  "\u12e8\u121b\u1235\u1290\u123b\u12e8\u121e\u1270\u122d_\u1241\u120d\u134e\u127d_\u1265\u12db\u1275",
+  "mirror_information_tab_tab",
+  "column_break_18",
+  "\u12e8\u1240\u129d_\u1228\u12e5\u121d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+  "\u12e8\u130d\u122b_\u1228\u12e5\u121d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+  "column_break_22",
+  "\u12e8\u1240\u129d_\u12a0\u132d\u122d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+  "\u12e8\u130d\u122b_\u12a0\u132d\u122d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+  "column_break_26",
+  "section_break_27",
+  "\u12e8\u1240\u129d_\u134d\u122c\u127b_\u12e8\u134a\u1275",
+  "\u12e8\u130d\u122b_\u134d\u122c\u127b_\u12e8\u134a\u1275",
+  "column_break_30",
+  "\u12e8\u1240\u129d_\u134d\u122c\u127b_\u12e8\u1283\u120b",
+  "\u12e8\u130d\u122b_\u134d\u122c\u127b_\u12e8\u1283\u120b",
+  "column_break_35",
+  "section_break_36",
+  "\u12e8\u1240\u129d_\u12e8\u1283\u120b_\u1218\u1265\u122b\u1275",
+  "\u12e8\u130d\u122b_\u12e8\u1283\u120b_\u1218\u1265\u122b\u1275",
+  "column_break_40",
+  "\u12e8\u1240\u129d_\u12e8\u1220\u120c\u12f3_\u1218\u1265\u122b\u1275",
+  "\u12e8\u130d\u122b_\u12e8\u1220\u120c\u12f3_\u1218\u1265\u122b\u1275",
+  "column_break_44",
+  "section_break_43",
+  "\u12e8\u1240\u129d_\u12e8\u134d\u122c\u1295_\u1218\u1265\u122b\u1275",
+  "\u12e8\u130d\u122b_\u12e8\u134d\u122c\u1295_\u1218\u1265\u122b\u1275",
+  "vehicle_environment_control_tab_tab",
+  "\u12e8\u12dd\u1293\u1265_\u1218\u1325\u1228\u130a\u12eb",
+  "\u12e8\u12c9\u1283\u1218\u122d\u132b",
+  "\u12e8\u1340\u1210\u12ed_\u1218\u120b\u12aa\u12eb",
+  "\u12e8\u12a8\u1348\u1291_\u1201\u1294\u1273",
+  "\u1321\u1229\u121d\u1263",
+  "vehicle_mirror_information_tab_tab",
+  "\u12e8\u130e\u1295_\u121b\u1233\u12eb_\u1218\u1235\u1273\u12c9\u1275",
+  "\u12e8\u130d\u122b_\u12e8\u130e\u1295_\u121b\u1233\u12eb_\u1218\u1235\u1273\u12c9\u1275",
+  "column_break_51",
+  "\u12e8\u130d\u122b_\u1260\u12a9\u120d_\u12e8\u1260\u122d_\u1218\u1235\u1273\u12c9\u1275",
+  "\u1240\u129d_\u1260\u12a9\u120d_\u12e8\u1260\u122d_\u1218\u1235\u1273\u12c9\u1275",
+  "\u12e8\u1283\u120b_\u1260\u12a9\u120d_\u12e8\u1260\u122d_\u1218\u1235\u1273\u12c9\u1275",
+  "column_break_55",
+  "\u12e8\u1290\u134b\u1235_\u1218\u12a8\u120b\u12a8\u12eb_\u1218\u1235\u1273\u12c9\u1275_\u12e8\u134a\u1275_\u1201\u1294\u1273",
+  "\u12e8\u1283\u120b_\u121b\u1233\u12eb_\u12c9\u1235\u1325_\u1218\u1235\u1273\u12c9\u1275",
+  "vehicle_break_and_tire_information_tab",
+  "\u12e8\u12a5\u130d\u122d_\u134d\u122c\u1295",
+  "\u12e8\u12a5\u1305_\u134d\u122c\u1295",
+  "\u12e8\u1290\u12f3\u1305_\u1354\u12f3\u120d",
+  "\u12e8\u134d\u122c\u1232\u12e9\u1295_\u1201\u1294\u1273",
+  "\u12e8\u1283\u120b_\u12e8\u130d\u122b_\u130e\u121b_\u1241\u1325\u122d",
+  "\u12e8\u1283\u120b_\u12e8\u1240\u129d_\u130e\u121b_\u1241\u1325\u122d",
+  "\u12e8\u134a\u1275_\u12e8\u1240\u129d_\u130e\u121b_\u1241\u1325\u122d",
+  "\u12e8\u134a\u1275_\u12e8\u130d\u122b_\u130e\u121b_\u1241\u1325\u122d",
+  "\u12a5\u1235\u12b3\u122d\u1275_\u130e\u121b_\u1241\u1325\u122d",
+  "\u1275\u122d\u134d_\u130e\u121b",
+  "\u12e8\u1270\u121f\u120b_\u12e8\u130e\u121b_\u1265\u120e\u1295",
+  "repair_tools_information_tab",
+  "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u12ab\u127b\u1262\u1274",
+  "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u12a5\u1235\u1274\u120b",
+  "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u12ad\u122a\u12ad",
+  "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u1352\u1295\u1223",
+  "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b\u12ce\u127d_\u12eb\u120d\u1270\u1320\u1240\u1231_\u12ab\u1209_\u12ed\u12d8\u122d\u12d8\u1229",
+  "miscellaneous_information_tab",
+  "\u12e8\u122d\u1240\u1275_\u1218\u1208\u12aa\u12eb\u12aa\u120e_\u121c\u1275\u122d",
+  "\u12e8\u1290\u12f3\u1305_\u130c\u1305",
+  "\u12e8\u12a5\u1233\u1275_\u12a0\u12f0\u130b_\u1218\u12a8\u120b\u12a8\u12eb",
+  "\u12e8\u12e9\u1292\u1268\u122d\u1232\u1272\u12c9_\u12a0\u122d\u121b",
+  "\u1260\u12a0\u1201\u1295_\u1235\u12d3\u1275_\u12e8\u121a\u12eb\u1223\u12e8\u12c9_\u12aa\u121c_\u1295\u1263\u1265",
+  "\u12e8\u1290\u12f3\u1305_\u1273\u1295\u12a8\u122d_\u12ad\u12f3\u1295",
+  "\u12e8\u130e\u1295\u1293_\u12e8\u134a\u1275_\u12e8\u1206\u120b_\u12e8\u1218\u12aa\u1293\u12c9_\u12a0\u122d\u121b_\u12eb\u1208\u12c9",
+  "vehicle_handover_information_tab_tab",
+  "\u1239\u134c\u122d_\u12ed\u121d\u1228\u1321",
+  "\u12a0\u1235\u1228\u12ab\u1262",
+  "\u1270\u1228\u12ab\u1262",
+  "\u12a0\u1228\u12ab\u12ab\u1262\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1263\u1208\u1219\u12eb\u1218\u12ab\u1292\u12ad",
+  "\u12e8\u1270\u1218\u12f0\u1260_\u1239\u134c\u122d",
+  "\u12e8\u12a0\u1228\u12ab\u12ab\u1262_\u12a0\u1235\u1270\u12eb\u12e8\u1275"
  ],
  "fields": [
-  {
-   "fieldname": "\u121e\u12f4\u120d",
-   "fieldtype": "Data",
-   "label": " \u121e\u12f4\u120d"
-  },
   {
    "fieldname": "\u12e8\u1273\u122d\u130b_\u1241\u1325\u122d",
    "fieldtype": "Data",
@@ -34,11 +109,6 @@
    "fieldtype": "Data",
    "label": "\u12e8\u1270\u1218\u12f0\u1260 \u1239\u134c\u122d",
    "read_only": 1
-  },
-  {
-   "fieldname": "\u12a0\u1245\u121d",
-   "fieldtype": "Data",
-   "label": "\u12a0\u1245\u121d"
   },
   {
    "fieldname": "amended_from",
@@ -67,12 +137,440 @@
    "hidden": 1,
    "label": "assigned_driver",
    "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "isassignedtotrip",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "isAssignedToTrip"
+  },
+  {
+   "fieldname": "tripenddate",
+   "fieldtype": "Datetime",
+   "hidden": 1,
+   "label": "tripEndDate"
+  },
+  {
+   "fieldname": "\u12e8\u1218\u12aa\u1293_\u12d3\u12ed\u1290\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1218\u12aa\u1293 \u12d3\u12ed\u1290\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u121e\u1270\u122d_\u1241\u1325",
+   "fieldtype": "Data",
+   "label": "\u12e8\u121e\u1270\u122d \u1241\u1325"
+  },
+  {
+   "fieldname": "\u12e8\u12a0\u12ab\u1209_\u1201\u1294\u1273",
+   "fieldtype": "Data",
+   "label": "\u12e8\u12a0\u12ab\u1209 \u1201\u1294\u1273"
+  },
+  {
+   "fieldname": "\u12e8\u127b\u1232_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u127b\u1232 \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u121b\u1235\u1290\u123b\u12e8\u121e\u1270\u122d_\u1241\u120d\u134e\u127d_\u1265\u12db\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u121b\u1235\u1290\u123b/\u12e8\u121e\u1270\u122d \u1241\u120d\u134e\u127d \u1265\u12db\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u1228\u12e5\u121d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u1228\u12e5\u121d \u134a\u1275 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u12a0\u132d\u122d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u12a0\u132d\u122d \u134a\u1275 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u1228\u12e5\u121d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u1228\u12e5\u121d \u134a\u1275 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u12a0\u132d\u122d_\u134a\u1275_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u12a0\u132d\u122d \u134a\u1275 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u134d\u122c\u127b_\u12e8\u134a\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u134d\u122c\u127b \u12e8\u134a\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u134d\u122c\u127b_\u12e8\u134a\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u134d\u122c\u127b \u12e8\u134a\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u134d\u122c\u127b_\u12e8\u1283\u120b",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u134d\u122c\u127b \u12e8\u1283\u120b"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u134d\u122c\u127b_\u12e8\u1283\u120b",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u134d\u122c\u127b \u12e8\u1283\u120b"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u12e8\u1283\u120b_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u12e8\u1283\u120b \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u12e8\u1283\u120b_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u12e8\u1283\u120b \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u12e8\u1220\u120c\u12f3_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u12e8\u1220\u120c\u12f3 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u12e8\u1220\u120c\u12f3_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u12e8\u1220\u120c\u12f3 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1240\u129d_\u12e8\u134d\u122c\u1295_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1240\u129d \u12e8\u134d\u122c\u1295 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u12e8\u134d\u122c\u1295_\u1218\u1265\u122b\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u130d\u122b \u12e8\u134d\u122c\u1295 \u1218\u1265\u122b\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u12dd\u1293\u1265_\u1218\u1325\u1228\u130a\u12eb",
+   "fieldtype": "Data",
+   "label": "\u12e8\u12dd\u1293\u1265 \u1218\u1325\u1228\u130a\u12eb"
+  },
+  {
+   "fieldname": "\u12e8\u12c9\u1283\u1218\u122d\u132b",
+   "fieldtype": "Data",
+   "label": "\u12e8\u12c9\u1283\u1218\u122d\u132b"
+  },
+  {
+   "fieldname": "\u12e8\u1340\u1210\u12ed_\u1218\u120b\u12aa\u12eb",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1340\u1210\u12ed \u1218\u120b\u12aa\u12eb"
+  },
+  {
+   "fieldname": "\u12e8\u12a5\u1305_\u134d\u122c\u1295",
+   "fieldtype": "Select",
+   "label": "\u12e8\u12a5\u1305 \u134d\u122c\u1295",
+   "options": "\u12e8\u121a\u1230\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u12e8\u12a5\u130d\u122d_\u134d\u122c\u1295",
+   "fieldtype": "Select",
+   "label": "\u12e8\u12a5\u130d\u122d \u134d\u122c\u1295",
+   "options": "\u12e8\u121a\u1230\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u12e8\u12a8\u1348\u1291_\u1201\u1294\u1273",
+   "fieldtype": "Select",
+   "label": "\u12e8\u12a8\u1348\u1291 \u1201\u1294\u1273",
+   "options": "\u12e8\u121a\u1230\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u1321\u1229\u121d\u1263",
+   "fieldtype": "Select",
+   "label": "\u1321\u1229\u121d\u1263",
+   "options": "\u12e8\u121a\u1230\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u12e8\u1290\u134b\u1235_\u1218\u12a8\u120b\u12a8\u12eb_\u1218\u1235\u1273\u12c9\u1275_\u12e8\u134a\u1275_\u1201\u1294\u1273",
+   "fieldtype": "Select",
+   "label": "\u12e8\u1290\u134b\u1235 \u1218\u12a8\u120b\u12a8\u12eb \u1218\u1235\u1273\u12c9\u1275 \u12e8\u134a\u1275 \u1201\u1294\u1273",
+   "options": "\u1325\u1229 \u1201\u1294\u1273\n\u12e8\u1270\u1230\u1290\u1320\u1240\n\u12e8\u1270\u1230\u1260\u1228"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u1260\u12a9\u120d_\u12e8\u1260\u122d_\u1218\u1235\u1273\u12c9\u1275",
+   "fieldtype": "Select",
+   "label": "\u12e8\u130d\u122b \u1260\u12a9\u120d \u12e8\u1260\u122d \u1218\u1235\u1273\u12c9\u1275",
+   "options": "\u1325\u1229 \u1201\u1294\u1273\n\u12e8\u1270\u1230\u1290\u1320\u1240\n\u12e8\u1270\u1230\u1260\u1228"
+  },
+  {
+   "fieldname": "\u1240\u129d_\u1260\u12a9\u120d_\u12e8\u1260\u122d_\u1218\u1235\u1273\u12c9\u1275",
+   "fieldtype": "Select",
+   "label": "\u1240\u129d \u1260\u12a9\u120d \u12e8\u1260\u122d \u1218\u1235\u1273\u12c9\u1275",
+   "options": "\u1325\u1229 \u1201\u1294\u1273\n\u12e8\u1270\u1230\u1290\u1320\u1240\n\u12e8\u1270\u1230\u1260\u1228"
+  },
+  {
+   "fieldname": "\u12e8\u1283\u120b_\u1260\u12a9\u120d_\u12e8\u1260\u122d_\u1218\u1235\u1273\u12c9\u1275",
+   "fieldtype": "Select",
+   "label": "\u12e8\u1283\u120b \u1260\u12a9\u120d \u12e8\u1260\u122d \u1218\u1235\u1273\u12c9\u1275",
+   "options": "\u1325\u1229 \u1201\u1294\u1273\n\u12e8\u1270\u1230\u1290\u1320\u1240\n\u12e8\u1270\u1230\u1260\u1228"
+  },
+  {
+   "fieldname": "\u12e8\u134d\u122c\u1232\u12e9\u1295_\u1201\u1294\u1273",
+   "fieldtype": "Select",
+   "label": "\u12e8\u134d\u122c\u1232\u12e9\u1295 \u1201\u1294\u1273",
+   "options": "\u12e8\u121a\u1220\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u12e8\u1290\u12f3\u1305_\u1354\u12f3\u120d",
+   "fieldtype": "Select",
+   "label": "\u12e8\u1290\u12f3\u1305 \u1354\u12f3\u120d",
+   "options": "\u12e8\u121a\u1220\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u12e8\u1283\u120b_\u121b\u1233\u12eb_\u12c9\u1235\u1325_\u1218\u1235\u1273\u12c9\u1275",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1283\u120b \u121b\u1233\u12eb \u12c9\u1235\u1325 \u1218\u1235\u1273\u12c9\u1275"
+  },
+  {
+   "fieldname": "\u12e8\u1283\u120b_\u12e8\u130d\u122b_\u130e\u121b_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1283\u120b \u12e8\u130d\u122b \u130e\u121b \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u1283\u120b_\u12e8\u1240\u129d_\u130e\u121b_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u1283\u120b \u12e8\u1240\u129d \u130e\u121b \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u134a\u1275_\u12e8\u1240\u129d_\u130e\u121b_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12e8\u134a\u1275 \u12e8\u1240\u129d \u130e\u121b \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u134a\u1275_\u12e8\u130d\u122b_\u130e\u121b_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": " \u12e8\u134a\u1275 \u12e8\u130d\u122b \u130e\u121b \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12a5\u1235\u12b3\u122d\u1275_\u130e\u121b_\u1241\u1325\u122d",
+   "fieldtype": "Data",
+   "label": "\u12a5\u1235\u12b3\u122d\u1275 \u130e\u121b \u1241\u1325\u122d"
+  },
+  {
+   "fieldname": "\u12e8\u121e\u1270\u122d_\u1201\u1294\u1273_\u12e8\u121a\u1220\u122b",
+   "fieldtype": "Select",
+   "label": "\u12e8\u121e\u1270\u122d \u1201\u1294\u1273 \u12e8\u121a\u1220\u122b",
+   "options": "\u12e8\u121a\u1230\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u1240\u1260\u1276",
+   "fieldtype": "Select",
+   "label": "\u1240\u1260\u1276",
+   "options": "\u12e8\u121a\u1230\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u1275\u122d\u134d_\u130e\u121b",
+   "fieldtype": "Data",
+   "label": "\u1275\u122d\u134d \u130e\u121b"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u12ab\u127b\u1262\u1274",
+   "fieldtype": "Check",
+   "label": "\u12ab\u127b\u1262\u1274"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u12a5\u1235\u1274\u120b",
+   "fieldtype": "Check",
+   "label": "\u12a5\u1235\u1274\u120b"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u12ad\u122a\u12ad",
+   "fieldtype": "Check",
+   "label": "\u12ad\u122a\u12ad"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b_\u1352\u1295\u1223",
+   "fieldtype": "Check",
+   "label": "\u1352\u1295\u1223"
+  },
+  {
+   "fieldname": "\u12e8\u1218\u12aa\u1293_\u1218\u134d\u127b\u12ce\u127d_\u12eb\u120d\u1270\u1320\u1240\u1231_\u12ab\u1209_\u12ed\u12d8\u122d\u12d8\u1229",
+   "fieldtype": "Text",
+   "label": "\u12e8\u1218\u12aa\u1293 \u1218\u134d\u127b\u12ce\u127d \u12eb\u120d\u1270\u1320\u1240\u1231 \u12ab\u1209 \u12ed\u12d8\u122d\u12d8\u1229"
+  },
+  {
+   "fieldname": "\u12e8\u122d\u1240\u1275_\u1218\u1208\u12aa\u12eb\u12aa\u120e_\u121c\u1275\u122d",
+   "fieldtype": "Select",
+   "label": "\u12e8\u122d\u1240\u1275 \u1218\u1208\u12aa\u12eb/\u12aa\u120e \u121c\u1275\u122d/",
+   "options": "\u12e8\u121a\u1220\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "fieldname": "\u12e8\u1290\u12f3\u1305_\u130c\u1305",
+   "fieldtype": "Select",
+   "label": "\u12e8\u1290\u12f3\u1305 \u130c\u1305",
+   "options": "\u12e8\u121a\u1220\u122b\n\u12e8\u121b\u12ed\u1220\u122b"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u12a5\u1233\u1275_\u12a0\u12f0\u130b_\u1218\u12a8\u120b\u12a8\u12eb",
+   "fieldtype": "Check",
+   "label": "\u12e8\u12a5\u1233\u1275 \u12a0\u12f0\u130b \u1218\u12a8\u120b\u12a8\u12eb"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u1270\u121f\u120b_\u12e8\u130e\u121b_\u1265\u120e\u1295",
+   "fieldtype": "Check",
+   "label": "\u12e8\u1270\u121f\u120b \u12e8\u130e\u121b \u1265\u120e\u1295"
+  },
+  {
+   "fieldname": "\u12e8\u130d\u122b_\u12e8\u130e\u1295_\u121b\u1233\u12eb_\u1218\u1235\u1273\u12c9\u1275",
+   "fieldtype": "Select",
+   "label": "\u12e8\u130d\u122b \u12e8\u130e\u1295 \u121b\u1233\u12eb \u1218\u1235\u1273\u12c9\u1275 ",
+   "options": "\u1325\u1229 \u1201\u1294\u1273\n\u12e8\u1270\u1230\u1290\u1320\u1240\n\u12e8\u1270\u1230\u1260\u1228"
+  },
+  {
+   "fieldname": "\u12e8\u130e\u1295_\u121b\u1233\u12eb_\u1218\u1235\u1273\u12c9\u1275",
+   "fieldtype": "Select",
+   "label": "\u12e8\u1240\u129d \u12e8\u130e\u1295 \u121b\u1233\u12eb \u1218\u1235\u1273\u12c9\u1275 ",
+   "options": "\u1325\u1229 \u1201\u1294\u1273\n\u12e8\u1270\u1230\u1290\u1320\u1240\n\u12e8\u1270\u1230\u1260\u1228"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u12e9\u1292\u1268\u122d\u1232\u1272\u12c9_\u12a0\u122d\u121b",
+   "fieldtype": "Check",
+   "label": "\u12e8\u12e9\u1292\u1268\u122d\u1232\u1272\u12c9 \u12a0\u122d\u121b"
+  },
+  {
+   "fieldname": "\u1260\u12a0\u1201\u1295_\u1235\u12d3\u1275_\u12e8\u121a\u12eb\u1223\u12e8\u12c9_\u12aa\u121c_\u1295\u1263\u1265",
+   "fieldtype": "Data",
+   "label": "\u1260\u12a0\u1201\u1295 \u1235\u12d3\u1275 \u12e8\u121a\u12eb\u1223\u12e8\u12c9 \u12aa\u121c \u1295\u1263\u1265"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u1290\u12f3\u1305_\u1273\u1295\u12a8\u122d_\u12ad\u12f3\u1295",
+   "fieldtype": "Check",
+   "label": "\u12e8\u1290\u12f3\u1305 \u1273\u1295\u12a8\u122d \u12ad\u12f3\u1295"
+  },
+  {
+   "default": "0",
+   "fieldname": "\u12e8\u130e\u1295\u1293_\u12e8\u134a\u1275_\u12e8\u1206\u120b_\u12e8\u1218\u12aa\u1293\u12c9_\u12a0\u122d\u121b_\u12eb\u1208\u12c9",
+   "fieldtype": "Check",
+   "label": "\u12e8\u130e\u1295\u1293 \u12e8\u134a\u1275 \u12e8\u1206\u120b \u12e8\u1218\u12aa\u1293\u12c9 \u12a0\u122d\u121b \u12eb\u1208\u12c9"
+  },
+  {
+   "fieldname": "\u12a0\u1235\u1228\u12ab\u1262",
+   "fieldtype": "Data",
+   "label": "\u12a0\u1235\u1228\u12ab\u1262",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u1270\u1228\u12ab\u1262",
+   "fieldtype": "Data",
+   "label": "\u1270\u1228\u12ab\u1262",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12a0\u1228\u12ab\u12ab\u1262\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a_\u1263\u1208\u1219\u12eb\u1218\u12ab\u1292\u12ad",
+   "fieldtype": "Data",
+   "label": "\u12a0\u1228\u12ab\u12ab\u1262/\u12e8\u1270\u123d\u12a8\u122d\u12ab\u122a \u1263\u1208\u1219\u12eb/\u1218\u12ab\u1292\u12ad/",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u12e8\u12a0\u1228\u12ab\u12ab\u1262_\u12a0\u1235\u1270\u12eb\u12e8\u1275",
+   "fieldtype": "Text",
+   "label": "\u12e8\u12a0\u1228\u12ab\u12ab\u1262 \u12a0\u1235\u1270\u12eb\u12e8\u1275"
+  },
+  {
+   "fieldname": "mirror_information_tab_tab",
+   "fieldtype": "Tab Break",
+   "label": "Lights information "
+  },
+  {
+   "fieldname": "vehicle_environment_control_tab_tab",
+   "fieldtype": "Tab Break",
+   "label": "Environment controlling utilities information"
+  },
+  {
+   "fieldname": "vehicle_mirror_information_tab_tab",
+   "fieldtype": "Tab Break",
+   "label": "Mirror information "
+  },
+  {
+   "fieldname": "vehicle_break_and_tire_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Break and tire information"
+  },
+  {
+   "fieldname": "miscellaneous_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Miscellaneous information"
+  },
+  {
+   "fieldname": "vehicle_handover_information_tab_tab",
+   "fieldtype": "Tab Break",
+   "label": "Vehicle handover information"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_44",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "repair_tools_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Repair tools information"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-12-05 11:02:10.163626",
+ "modified": "2022-12-09 15:31:46.723750",
  "modified_by": "Administrator",
  "module": "Gondermgt",
  "name": "vehicle management",

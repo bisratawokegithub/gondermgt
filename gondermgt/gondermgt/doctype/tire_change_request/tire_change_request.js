@@ -12,6 +12,13 @@ frappe.ui.form.on("tire change request", {
 
     onload(form) {
 
+        frappe.show_alert({
+            
+            message:__(form.doc.workflow_state),
+            
+            indicator:form.doc.workflow_state == 'Rejected' || form.doc.workflow_state == 'canceled'? 'red' : 'green'
+        
+        },5 )
         //show_alert('hey brother have you seen avicii...ow wait he died... its about time',5)
         switch(form.doc.workflow_state) {
 
@@ -25,24 +32,6 @@ frappe.ui.form.on("tire change request", {
 
 
         }
-
-        /*
-        if(form.doc.workflow_state == "verification passed"){
-
-            //frappe.user_roles.includes('head mechanic')
-
-            form.toggle_display('የጎማ_ጥያቄ_መረጃ',false)
-
-        }
-
-        if(form.doc.workflow_state == "Requested") {
-
-            form.toggle_display('የጎማ_ጥያቄ_መረጃ',false)
-
-
-        }
-
-        */
 
     },
 

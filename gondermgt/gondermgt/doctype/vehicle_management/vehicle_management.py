@@ -19,8 +19,9 @@ class vehiclemanagement(Document):
 
 	def on_update(self):
 
+		pass
 		#frappe.msgprint(f"{self.workflow_state}")
-		frappe.msgprint(f"{self.workflow_state}")
+		#frappe.msgprint(f"{self.workflow_state}")
 
 	def before_save(self):
 
@@ -42,6 +43,21 @@ class vehiclemanagement(Document):
 				#frappe.db.sql(f"""
 				#	update `tabUser` set is_assigned_car = 0 where email = '{driverInfo['user']}' 
 				#""")
+			
+			if self.workflow_state == "Added new vehicle entry":
+
+				self.አስረካቢ = self.currentUser['id']
+
+			if self.workflow_state == "receiver confirmed":
+
+				self.ተረካቢ = self.currentUser['id']
+
+
+			if self.workflow_state == "mechanic confirmed":
+
+				self.አረካካቢየተሽከርካሪ_ባለሙያመካኒክ = self.currentUser['id']
+
+				pass
 
 			if self.workflow_state == "Waiting for driver confirmation":
 
@@ -105,9 +121,7 @@ class vehiclemanagement(Document):
 
 
 					#remove this during production
-					frappe.db.sql(f"""
-						update `tabUser` set is_assigned_car = 1 where email = '{driverInfo['user']}' 
-					""")
+
 					
 					print('----------------------all good in the hood----------------------------')
 

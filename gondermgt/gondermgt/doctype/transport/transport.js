@@ -24,114 +24,112 @@ function setFieldsToReadOnly(fields,form){
 
 }
 
+//allow fields to be changed
+function allowWrite(fields,form) {
 
+    try{
+
+        fields.forEach(field => {
+
+            form.set_df_property(field,'read_only',0)
+
+        })
+
+    }catch(err) {
+
+        console.log(err)
+
+    }
+
+
+}
+
+let fields = [
+
+    'ለአገልግሎት_የሚፈለግበት_ሰዓት__ከዚህ_ጊዜ_ይጀምራል',
+
+    'ለአገልግሎት_የሚፈለግበት_ሰዓት_እስከዚህ_ጊዜ_ድረስ',
+    
+    'የተጓዥ_ስም',
+    
+    'የሚሄዱበት_ቦታ',
+
+    'ምክንያት',
+
+    'የመውጫ_አይነት'
+    
+    
+] 
+//let showStartTripBtn = frappe.user_roles.includes('Guard') && form.doc.workflow_state == "Approved"
 //form ui controller
-frappe.ui.form.on("transport", {
 
+frappe.ui.form.on("transport", {
+    
+    refresh(form) {
+
+       
+
+    },
     onload(form) {
 
-        switch(form.doc.workflow_state) {
-
-            case "Requested":
-
-                getVehicles(form)
-
-                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],true)
-
-                break
-
-            default:
-
-                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
-                
-                break
-
-        }
-/*
-        let fields = [
-
-            'ለአገልግሎት_የሚፈለግበት_ሰዓት__ከዚህ_ጊዜ_ይጀምራል',
-
-            'ለአገልግሎት_የሚፈለግበት_ሰዓት_እስከዚህ_ጊዜ_ድረስ',
+        frappe.show_alert({
             
-            'የተጓዥ_ስም',
-
-            'የሚሄዱበት_ቦታ',
-
-            'ምክንያት'
-
-
-        ]
-
-        fields = form.doc.workflow_state != "Draft" && form.doc.workflow_state != "Requested" ? fields = [...fields,'የሹፌር_ስም','የሰሌዳ_ቁጥር'] : fields
-
+            message:__(form.doc.workflow_state),
+            
+            indicator:form.doc.workflow_state == 'Rejected' || form.doc.workflow_state == 'canceled'? 'red' : 'green'
         
+        },5 )
         
-        if(form.doc.workflow_state != "Draft"){
+        form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
+        
+        if(form.doc.workflow_state == "Approved"){
 
-            setFieldsToReadOnly(fields,form)
-    
-            //form.set_df_property('የሹፌር_ስም','read_only',1)
-
-            //form.set_df_property('የሰሌዳ_ቁጥር','read_only',1)
-
-        }
-
-        if(form.doc.workflow_state == "Requested") {
+            getVehicles(form,form.doc.ለአገልግሎት_የሚፈለግበት_ሰዓት__ከዚህ_ጊዜ_ይጀምራል)
 
             form.toggle_display(['ተሽከርካሪ_ይምረጡ'],true)
-
-        }else {
-
+            
 
         }
         
-        /*
-         //getDrivers(form)
-         switch(form.doc.workflow_state) {
-
-            case "Request":
-                
-
-                break
-
-                
-            default:
-                
-                form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
-
-                setFieldsToReadOnly(fields,form)
+        if(form.doc.workflow_state == "vehicle assigned"){
+            
+            form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
+            
+            form.toggle_display(['የተመረጠው_ተሽከርካሪ_የሰሌዳ_ቁጥር'],false)
 
         }
-        */
+        
+        let readOnlyState = ['vehicle assigned','vehicle has departed','vehicle has returned']
+                
+         if(readOnlyState.includes(form.doc.workflow_state)) {
+        
+                setFieldsToReadOnly(fields,form)
+        
+            }
         /*
-        if(form.doc.workflow_state == "Approved") {
+ 
+            if(form.doc.workflow_state == "Requested"){
 
+                                    
+                    form.toggle_display(['ተሽከርካሪ_ይምረጡ'],true)
+                                
+            
+            }
 
-            //form.toggle_display(['የተጓዥ_ስም'],false)
-            form.set_df_property([], "read_only", 1);
+                
 
-        }   
+                
+                
+                    
+                 */   
+    
+                
 
-        */
-
-        /*
-        let showStartTripBtn = frappe.user_roles.includes('Guard') && form.doc.workflow_state == "Approved"
-
-        let showTripEndedBtn = frappe.user_roles.includes('Guard') && form.doc.workflow_state == "vehicle has left"
-
-        console.log(showStartTripBtn)
-
-        form.toggle_display(['record_start_of_trip_date'],showStartTripBtn)
-
-        form.toggle_display(['record_vehicle_return_date',showTripEndedBtn])
-
-        showStartTripBtn.addEventListener('click',e => alert('clicked start trip btn'))
-
-        */
+    
+       
+        
     },
     validate(form) {
-
 
         console.log(form.doc.status)
 
@@ -156,14 +154,24 @@ frappe.ui.form.on("transport", {
 
 //get list of vehicles
 
-function getVehicles(form) {
+function getVehicles(form,start_date) {
+    
+    console.log(start_date)
+    form.set_query('ተሽከርካሪ_ይምረጡ',function(){
 
-    form.set_query('ተሽከርካሪ_ይምረጡ',() => {
 
+        
         return {
 
             query: "gondermgt.api.getCars",
 
+            filters: {
+
+                'start_date': start_date,
+
+                'from': 'transport'
+
+            }
         };
 
     })
