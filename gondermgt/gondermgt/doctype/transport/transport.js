@@ -65,21 +65,20 @@ let fields = [
 
 frappe.ui.form.on("transport", {
     
-    refresh(form) {
-
-       
-
-    },
-    onload(form) {
-
+    after_workflow_action: function (form) {
+		//alert(form.doc.workflow_state)
         frappe.show_alert({
             
             message:__(form.doc.workflow_state),
             
-            indicator:form.doc.workflow_state == 'Rejected' || form.doc.workflow_state == 'canceled'? 'red' : 'green'
+            indicator:form.doc.workflow_state == 'Rejected' || form.dock_workflow_state == 'canceled' ? 'red' : 'green'
         
         },5 )
-        
+
+    },
+    onload(form) {
+
+
         form.toggle_display(['ተሽከርካሪ_ይምረጡ'],false)
         
         if(form.doc.workflow_state == "Approved"){

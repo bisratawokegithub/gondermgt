@@ -21,7 +21,17 @@ function setReadOnly(fields,form) {
 
 }
 frappe.ui.form.on("Fuel and Grease", {
+    after_workflow_action: function (form) {
+		//alert(form.doc.workflow_state)
+        frappe.show_alert({
+            
+            message:__(form.doc.workflow_state),
+            
+            indicator:form.doc.workflow_state == 'Rejected' || form.dock_workflow_state == 'canceled' ? 'red' : 'green'
+        
+        },5 )
 
+    },
     onload(form) {
 
         let fields = ['የኩፖን_ቁጥር','የመኪናው_ዓይነት','የሰሌዳ_ቁጥር','ኪሎ_ሜትር',"የነዳጅ_ቅጽ","የቅባት_ቅጽ","ዘይት_ቅጽ"]

@@ -67,30 +67,36 @@ class vehiclemanagement(Document):
 				
 				print(docInfo['ሹፌር_ይምረጡ'])
 				#driverInfo = docInfo['የተመደበ_ሹፌር'][0]
-				driverInfo = docInfo['ሹፌር_ይምረጡ'][0]
-				
-				print(driverInfo)
-				
-				print(self.currentUser['id'])
 
+				if len(docInfo['ሹፌር_ይምረጡ']) > 0 and len(docInfo['ሹፌር_ይምረጡ']) < 2 :
 
-				print('-------------------- time to update the users info-------------------')
-
-					#self.assigned_driver = driverInfo['user']
-				self.የተመደበ_ሹፌር = driverInfo['user']
-
-
-					#remove this during production
-					#frappe.db.sql(f"""
-					#	update `tabUser` set is_assigned_car = 1 where email = '{driverInfo['user']}' 
-					#""")
-
-				
-				mssg = f"You have been assigned to vehicle please follow link below to confirm. https://gondermgt.localhost:8000/app/vehicle management/{self.name}"
-
-				#frappe.sendmail(recipients=[self.የተመደበ_ሹፌር],content=mssg)
+					driverInfo = docInfo['ሹፌር_ይምረጡ'][0]
 					
-				print('----------------------all good in the hood----------------------------')
+					print(driverInfo)
+					
+					print(self.currentUser['id'])
+
+
+					print('-------------------- time to update the users info-------------------')
+
+						#self.assigned_driver = driverInfo['user']
+					self.የተመደበ_ሹፌር = driverInfo['user']
+
+
+						#remove this during production
+						#frappe.db.sql(f"""
+						#	update `tabUser` set is_assigned_car = 1 where email = '{driverInfo['user']}' 
+						#""")
+
+					
+					mssg = f"You have been assigned to vehicle please follow link below to confirm. https://gondermgt.localhost:8000/app/vehicle management/{self.name}"
+
+					#frappe.sendmail(recipients=[self.የተመደበ_ሹፌር],content=mssg)
+						
+					print('----------------------all good in the hood----------------------------')
+				else:
+
+					raise Exception(f"Prohibted action taken, You must select a single driver to assign")
 
 			pass
 
