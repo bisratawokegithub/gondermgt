@@ -14,20 +14,20 @@ def getCars(doctype, txt, searchfield, start, page_len, filters):
 
         if filters['from'] == 'transport':
             
-            car_list = [(car['name'],car['isassignedtotrip']) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','አቅም','name','isassignedtotrip'],filters=[["isassignedtotrip","=",0]])]
+            car_list = [(car['name'],car['isassignedtotrip']) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','name','isassignedtotrip'],filters=[["isassignedtotrip","=",0]])]
         
         else:
 
-            car_list = [(car['name'],car['isassignedtotrip']) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','አቅም','name','isassignedtotrip'])]
+            car_list = [(car['name'],car['isassignedtotrip']) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','name','isassignedtotrip'])]
     else:
 
         if filters['from'] == 'transport':
             
-            car_list = [(car['name'],) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','አቅም','name'],filters=[['name','like',f"%{txt}%"],["isassignedtotrip","=",0]])]
+            car_list = [(car['name'],) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','name'],filters=[['name','like',f"%{txt}%"],["isassignedtotrip","=",0]])]
         
         else:
 
-            car_list = [(car['name'],) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','አቅም','name'],filters=[['name','like',f"%{txt}%"]])]
+            car_list = [(car['name'],) for car in frappe.db.get_list('vehicle management',fields=['የታርጋ_ቁጥር','name'],filters=[['name','like',f"%{txt}%"]])]
     
     print(car_list)
 
